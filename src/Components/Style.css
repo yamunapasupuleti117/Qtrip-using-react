@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* navbar css */
+nav{
+    background-color: #f8f9fa;
+    width: 100%;
+    display: inline-block;
+    height: 70px;
+    position: relative;
+    font-weight: bold;
+    
+}
+nav li{
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 30px;
+    font-family: var(--bs-font-sans-serif);
+}
+nav ul{
+
+    position: absolute;
+    top:20px;
+     margin-left: 60pc;
+}
+nav span{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 1.2rem;
+}
+
+nav button{
+    background-color: #F19537;
+    color: white;
+    border: none;
+    padding: 10px 20px; 
+    border-radius: 10px;
+}
+ #col{
+    color: #F19537;
+}
+ 
+/* footer */
+.container {
+    width: 100%;
+    color: #999;
+    padding-left: 100px;
+    padding-top: 15px;
+    background-color: #9999996b;
+    height: 50px;
+}
+/* background */
+#bg{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/2422461/pexels-photo-2422461.jpeg?cs=srgb&dl=pexels-josh-hild-2422461.jpg&fm=jpg");
+    height: 70vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#con{
+    position: absolute;
+    color: white;
+    text-align: center;
+    width: 1200px;
+    bottom: 34%;
+    left: 9%;
+
+}
+#con h1{
+    font-size: calc(1.375rem + 1.5vw);
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+#con p {
+    font-size: 24px;
+    font-weight: 100;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+#con input{
+    width: 80%;
+    height: 50px;
+    border-radius: 8px;
+    border: none;   
+}
+#hover:hover{
+
+    /* transform: scale(1.03);
+    transition: all 2sec;*/
+    cursor: pointer; 
+    transform: scale(1.02);
+    box-shadow: 2px 1px 10px 1px rgba(0, 0, 0, 0.3);
+}
+#text{
+ position: absolute;
+  bottom: 35px;
+  color: white;
+   right: 105px; 
+   text-align: center;
+   z-index: 1;
+   font-weight: bold;
+   font-size: 1.5rem;
+}
+.cdiv{
+    overflow: hidden;
+    border: solid;
+    height: 500px;
+}
+.headposition{
+    height: 75px;
+    margin: 20px;
+    border-top:1px solid ;
+    border-bottom: 1px solid;
+}
+.MenupartHeader{
+    
+    height: 40vh;
+    width: 80vw;
+    margin: auto;
+    margin-left: "150px";
+    position: relative;
+    top: 100px;   
+}
+#Menudata{
+    font-size: 23px;
+    margin-left:15px;
+}
+#headInner{
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-evenly;  
+}
+#MenuName{
+    font-size: 40px;
+    margin: 15px;
+}
+.Menusub_InnerCard_Details{
+    height: 100px;   
+    position: relative;
+}
+.Menusub_InnerCard_Details:link{
+    text-decoration: none;
+    color: black;
+}
+.MenusubInnerCard{
+    border: 1px solid #dddddd;
+    height: 360px;
+    width: 310px;
+    border-radius: 10px;
+    position: relative;
+} 
+#Minput{
+    padding: 10px;
+}
